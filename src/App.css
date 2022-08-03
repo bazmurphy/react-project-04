@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  /* border: 1px solid orange; */
 }
 
 .App {
@@ -54,4 +55,75 @@
   padding-top: 16px;
   font-weight: 300;
   line-height: 18px;
+  color: #222222;
+}
+
+.card-gallery-container {
+  padding-left: 37px;
+  padding-bottom: 30px;
+}
+
+.card-container {
+  width: 176px;
+}
+
+.card-photo-container {
+  position: relative;
+}
+
+.card-status {
+  float: left;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  padding: 4px 6px;
+  background: white;
+  border-radius: 3px;
+  color: #222222
+}
+
+.card-photo {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-info-section-one,
+.card-info-section-two,
+.card-info-section-three {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  padding-top: 8px;
+}
+
+.card-info-section-one > *,
+.card-info-section-three > *  {
+  padding-right: 2px;
+}
+
+.card-star {
+  height: 14px;
+}
+
+.card-rating {
+  color: #222222;
+}
+
+.card-rating-count,
+.card-bullet-point,
+.card-location {
+  color: #918E9B;
+}
+
+.card-description {
+  display: block;
+  color: #222222;
+}
+
+.card-from,
+.card-price {
+  font-weight: 600;
 }
