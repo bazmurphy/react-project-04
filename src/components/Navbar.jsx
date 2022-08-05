@@ -3,8 +3,8 @@ import airbnbLogo from "../assets/airbnb-logo.png";
 
 function Navbar() {
     return (
-        <nav class="nav-container">
-            <img class="nav-image" src={airbnbLogo} alt="" />
+        <nav className="nav-container">
+            <img className="nav-image" src={airbnbLogo} alt="" />
         </nav>
     );
 }
