@@ -10,7 +10,7 @@
 .App {
   background-color: white;
   border-radius: 10px;
-
+  width: 550px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -60,6 +60,8 @@
 .card-gallery-container {
   padding-left: 37px;
   padding-bottom: 30px;
+  display: flex;
+  gap: 8px;
 }
 
 .card-container {

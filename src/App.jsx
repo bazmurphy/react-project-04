@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import CardGallery from "./components/CardGallery";
 
 function App() {
+
   return (
     <div className="App">
       <Navbar />

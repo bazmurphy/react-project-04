@@ -6,8 +6,8 @@ function Card(props) {
     return (            
         <section className="card-container">
             <section className="card-photo-container">
-                <span className="card-status">SOLD OUT</span>
-                <img className="card-photo" src={props.cardPhoto} alt="" />
+                <span className="card-status">{props.cardAvailableSlots}</span>
+                <img className="card-photo" src={`../images/${props.cardPhoto}`} alt="" />
             </section>
             <section className="card-info-section-one">
                 <img className="card-star" src={star} alt="" />
