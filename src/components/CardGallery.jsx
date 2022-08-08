@@ -10,6 +10,7 @@ export default function CardGallery() {
 
     const CardElements = cardData.map(element => {
         return <Card
+                key = {element.id}
                 cardAvailableSlots = {element.openSpots > 0 ? element.openSpots: "SOLD OUT"}
                 cardPhoto = {element.coverImg}
                 cardRating = {element.stats.rating}
