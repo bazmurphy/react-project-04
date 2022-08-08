@@ -3,10 +3,19 @@ import React from "react";
 import star from "../assets/star.png";
 
 export default function Card(props) {
-    return (            
+
+    let cardOpenSpotsText;
+
+    if (props.cardOpenSpots === 0) {
+        cardOpenSpotsText = "SOLD OUT";
+    } else if (props.cardLocation === "Online") {
+        cardOpenSpotsText = "ONLINE";
+    }
+
+    return (
         <section className="card-container">
             <section className="card-photo-container">
-                <span className="card-status">{props.cardAvailableSlots}</span>
+                {cardOpenSpotsText !== undefined && <span className="card-status">{cardOpenSpotsText}</span>}
                 <img className="card-photo" src={`../images/${props.cardPhoto}`} alt="" />
             </section>
             <section className="card-info-section-one">
