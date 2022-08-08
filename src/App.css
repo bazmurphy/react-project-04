@@ -61,11 +61,14 @@
   padding-left: 37px;
   padding-bottom: 30px;
   display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
   gap: 8px;
 }
 
 .card-container {
   width: 176px;
+  flex: 0 0 auto;
 }
 
 .card-photo-container {

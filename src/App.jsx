@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import CardGallery from "./components/CardGallery";
 
-function App() {
+export default function App() {
 
   return (
     <div className="App">
@@ -15,5 +15,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

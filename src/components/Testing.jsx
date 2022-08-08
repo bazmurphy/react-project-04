@@ -1,6 +1,6 @@
 import React from "react";
 
-function Test() {
+export default function Test() {
     const firstName = "Baz";
     const lastName = "Murphy";
     
@@ -33,5 +33,3 @@ function Test() {
         </div>
     );
 }
-
-export default Test;

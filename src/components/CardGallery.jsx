@@ -2,11 +2,11 @@ import React from "react";
 
 import Card from "../components/Card";
 
-import cardData from "../data/cardData"
+import cardData from "../data/cardData";
 
-function CardGallery() {
+export default function CardGallery() {
 
-    console.log(cardData)
+    // console.log(cardData)
 
     const CardElements = cardData.map(element => {
         return <Card
@@ -15,7 +15,7 @@ function CardGallery() {
                 cardRating = {element.stats.rating}
                 cardReviewCount = {element.stats.reviewCount}
                 cardLocation = {element.location}
-                cardDescription = {element.description}
+                cardDescription = {element.title}
                 cardPrice = {element.price}
                 />
     });
@@ -26,5 +26,3 @@ function CardGallery() {
         </div>
     );
 }
-
-export default CardGallery;

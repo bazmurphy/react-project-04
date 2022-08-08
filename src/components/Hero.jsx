@@ -1,7 +1,8 @@
 import React from "react";
+
 import photoGrid from "../assets/photo-grid.png"
 
-function Hero() {
+export default function Hero() {
     return (
         <section className="hero-container">
             <section className="hero-section-one">
@@ -14,5 +15,3 @@ function Hero() {
         </section>
     );
 }
-
-export default Hero;

@@ -2,7 +2,7 @@ import React from "react";
 
 import star from "../assets/star.png";
 
-function Card(props) {
+export default function Card(props) {
     return (            
         <section className="card-container">
             <section className="card-photo-container">
@@ -27,5 +27,3 @@ function Card(props) {
         </section>
     );
 }
-
-export default Card;
